@@ -9,7 +9,10 @@ const navigate = useNavigate()
   return (
     <div className='DigitalTimer'>
 
-<Navigation />
+<section className="nav-section">
+        <h3 className="interval-heading">interval</h3>
+        <Navigation />
+      </section>
 <div className='DigitalTimer--wrapper'>
       <h1 className='Digital-heading'>0:00</h1>
 

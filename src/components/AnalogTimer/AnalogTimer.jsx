@@ -1,7 +1,7 @@
 import Navigation from "../Navigation/Navigation"
 import './AnalogTimer.css'
 import Clock from '../../assets/clock.svg'
-import {useNavigate} from 'react-router-dom'
+import {useNavigate } from 'react-router-dom'
 
 
 
@@ -11,7 +11,11 @@ const navigate = useNavigate()
 
   return (
     <div className="AnalogTimer">
-      <Navigation />
+      <section className="nav-section">
+        <h3 className="interval-heading">interval</h3>
+        <Navigation />
+      </section>
+      
 <div className='AnalogTimer--wrapper'>
 <img
     src={Clock}
@@ -30,5 +34,4 @@ const navigate = useNavigate()
 }
 
 export default AnalogTimer
-
 

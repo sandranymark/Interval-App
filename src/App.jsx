@@ -5,6 +5,8 @@ import AnalogTimer from './components/AnalogTimer/AnalogTimer';
 import LoadingScreen from './components/LoadingScreen/LoadingScreen'
 import DigitalTimer from './components/DigitalTimer/DigitalTimer';
 import TimerMenu from './components/TimerMenu/TimerMenu';
+import AlarmView from './components/AlarmView/AlarmView';
+import TextTimer from './components/TextTimer/TextTimer';
 
 
 function App() {
@@ -13,9 +15,11 @@ function App() {
       <Routes>
         <Route path="/" element={<LoadingScreen />} />
         <Route path="set-timer" element={<SetTimer />} />
-        <Route path="/analog-timer" element={<AnalogTimer/>} />
+        <Route path="analog-timer" element={<AnalogTimer/>} />
         <Route path="digital-timer" element={<DigitalTimer />} />
         <Route path="menu" element={<TimerMenu />} />
+        <Route path="alarm-view" element={<AlarmView />} />
+        <Route path="text-timer" element={<TextTimer />} />
       </Routes>
     </Router>
   );
