@@ -1,0 +1,8 @@
+.nav-icon {
+    position: absolute;
+    top: 13px;
+    left: 16px;
+    display: flex;
+    flex-direction: column;
+
+}
