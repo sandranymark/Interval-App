@@ -10,8 +10,8 @@ function TimerMenu() {
         <nav className='nav'>
           <a className='nav-link' href='/analog-timer'>ANALOG TIMER</a>
           <a className='nav-link' href='/digital-timer'>DIGITAL TIMER</a>
-          <a className='nav-link' href='/visual-timer'>TEXT TIMER</a>
-          <a className='nav-link' href='/set-timer'>I DONT KNOW</a>
+          <a className='nav-link' href='/text-timer'>TEXT TIMER</a>
+          <a className='nav-link' href='/set-timer'>FUCK THIS</a>
         </nav>
       </div>
     </div>

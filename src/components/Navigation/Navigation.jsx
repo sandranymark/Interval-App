@@ -7,7 +7,7 @@ function Navigation() {
 const [menuOpen, setMenuOpen] = useState(false);
 
 const handleIconClick = () => {
-  setMenuOpen(!menuOpen)
+  setMenuOpen(prevState => !prevState);
 };
 
 
@@ -18,8 +18,13 @@ const handleIconClick = () => {
         src={navigation}
         alt="Navigation-menu"
         onClick={handleIconClick}
+       
       />
-      { <TimerMenu />}
+     {menuOpen && (
+        <div className='overlay'>
+          <TimerMenu />
+        </div>
+      )}
     </div>
   )
 }

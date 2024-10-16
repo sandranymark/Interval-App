@@ -7,4 +7,6 @@
     align-items: center;
 }
 
-.logotype {}
+.logotype {
+    cursor: pointer;
+}
