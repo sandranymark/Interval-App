@@ -19,11 +19,12 @@
     cursor: pointer;
     padding: 5px 10px 5px 10px;
     opacity: 60%;
-    margin: 0;
+
 }
 
 .Digital-heading {
     margin-top: 10rem;
+    margin-bottom: 15rem;
     font-size: 80px;
     font-weight: 700;
     text-align: center;
@@ -32,13 +33,8 @@
 }
 
 .DigitalTimer--wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 .interval-heading {
@@ -55,4 +51,11 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
+}
+
+.time-container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

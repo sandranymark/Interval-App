@@ -8,11 +8,13 @@ import TimerMenu from './components/TimerMenu/TimerMenu';
 import AlarmView from './components/AlarmView/AlarmView';
 import TextTimer from './components/TextTimer/TextTimer';
 
-
 function App() {
   return (
+    
     <Router>
+     
       <Routes>
+      
         <Route path="/" element={<LoadingScreen />} />
         <Route path="set-timer" element={<SetTimer />} />
         <Route path="analog-timer" element={<AnalogTimer/>} />
@@ -20,8 +22,11 @@ function App() {
         <Route path="menu" element={<TimerMenu />} />
         <Route path="alarm-view" element={<AlarmView />} />
         <Route path="text-timer" element={<TextTimer />} />
+        
       </Routes>
+      
     </Router>
+    
   );
 }
 
